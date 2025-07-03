@@ -11,7 +11,7 @@ def detect_faces_in_image(image_path):
         return
 
     # Read the image
-    image = cv2.imread(image_path)
+    image = cv2.imread("C:\Users\ADMIN\Downloads\WhatsApp Image 2025-07-03 at 17.43.25_45f29894.jpg")
     if image is None:
         print("Error: Could not read the image.")
         return
